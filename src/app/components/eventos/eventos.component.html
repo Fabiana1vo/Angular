@@ -1,0 +1,11 @@
+<div class="class">
+    <button (click)="showMenu()">Abra o menu</button>
+    <nav *ngIf="show">
+        <ul>
+            <li><a (click)="showMenu()" href="#foinoPerfil">Perfil</a></li>
+            <li><a (click)="showMenu()" href="#foinoProjeto">Projetos</a></li>
+
+        </ul>
+    </nav>
+</div>
+

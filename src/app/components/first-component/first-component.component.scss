@@ -1,0 +1,23 @@
+nav 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:darkcyan;
+    min-width: 100%;    
+ul
+{
+    display: flex;
+    padding: 15px;
+
+    
+    li{
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            margin-left: 10px;
+        }
+    }
+}
+}
